@@ -1,0 +1,6 @@
+@SaiReddyChatApp_HostAddress = http://localhost:5093
+
+GET {{SaiReddyChatApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
