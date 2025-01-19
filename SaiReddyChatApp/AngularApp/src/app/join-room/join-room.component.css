@@ -1,0 +1,96 @@
+.bg-container {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+  color: #fff;
+}
+
+/* Row background */
+.bg-row {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  padding: 20px 15px;
+}
+
+/* Styling for card */
+.cardbody-color {
+  background: linear-gradient(145deg, #6a11cb 20%, #2575fc 80%);
+  color: #fff;
+  border-radius: 15px;
+}
+
+/* Button styling */
+.btn-color {
+  background-color: #0e1c36;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-color:hover {
+  background-color: #16213e;
+  color: #f9f9f9;
+}
+
+/* Profile image */
+.profile-image-pic {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-image-pic:hover {
+  transform: scale(1.1);
+}
+
+/* Input fields */
+.input-field {
+  border: none;
+  border-radius: 30px;
+  padding: 10px 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.input-field:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+}
+
+/* General styles */
+a {
+  text-decoration: none;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+h2, .text-center {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .profile-image-pic {
+    height: 100px;
+    width: 100px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .cardbody-color {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
